@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import miLogo from "../../../assets/img/logoReact.png"
+import miLogo from "../../../src/assets/img/logoReact.png";
 
 export const Cabecera = () => {
   return (
@@ -7,7 +7,7 @@ export const Cabecera = () => {
       <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            < img src = {miLogo} alt= "El Logo"/>
+            <img src={miLogo} alt="El Logo" />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -66,7 +66,7 @@ export const Cabecera = () => {
               </li>
 
               <li className="nav-item">
-                <NavLink className="nav-link" to="/menuacer">
+                <NavLink className="nav-link" to="/menacer">
                   Acerca De
                 </NavLink>
               </li>
